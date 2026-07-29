@@ -5,6 +5,11 @@
 ## Project Description
 This project explores two approaches for single-person 2D Human Pose Estimation on the Leeds Sports Pose dataset. A simplified DeepPose-based model (SDP) and a simplified HigherHRNet-based bottom-up model (SHHRN) were built and evaluated. The models were evaluated on pose metrics such as PCK, MSE, and prediction plots. Results show that mHHRN performed stronger across all evaluation metrics, with mDP performing poorly due to clustering of joints. This suggests that heatmap-based approaches perform better than regression-based for single-person 2D HPE.
 
+## Results
+
+<img width="668" height="307" alt="image" src="https://github.com/user-attachments/assets/5a095a71-f527-453f-aaf4-6db4d1160fd0" />
+
+
 ## Conclusion
 This project’s main goal was to build and compare regression-based and heatmap-based approaches for single-person 2D HPE. It showed that heatmap-based  approaches were superior to regression-based models. However, with a better architecture the SDP might perform significantly better at a lower computation cost.
 
